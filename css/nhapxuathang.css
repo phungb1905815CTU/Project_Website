@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 120em;
+    height: 6em;
+    background-color: rgb(36, 51, 66);
+    overflow: hidden;
+}
+
+.btn-group {
+    display: flex;
+    margin: 1em auto;
+}
+
+.btn-group > button {
+    padding: 8px 1em;
+    border-radius: 5px;
+    margin: 0 1.5em;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.btn-group > button:hover {
+    background-color: #243342;
+    color: #16f1d7;
+}
+
+.main {
+    /* width: 120em; */
+    /* height: 54.5em; */
+    background-color:rgb(222, 224, 226);
+}
+
+.main__title {
+    height: 8em;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.main__title > h3 {
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 1em 0;
+}
+
+.main__menu {
+    height: 4.5em;
+}
+
+.main__content {
+    width: 100%;
+    height: 42em;
+    padding: 0 5em;
+    background-color: rgb(228, 218, 218);
+}
+
+.main__content__info {
+    padding: 2em 8em;
+}
+
+.main__content__info__item {
+    border: 1px solid black;
+    padding: 0;
+    height: 38em;
+    display: block;
+    border-radius: 10px;
+    background-color: rgb(252, 250, 250);
+}
+
+.main__content__info__item__title {
+    height: 3em;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.main__content__info__item__image {
+    height: 25em;
+    width: 100%;
+    padding: 0;
+    background-position: bottom;
+}
+
+.main__content__info__item__image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main__content__info__item__btn {
+    height: 5em;
+    margin: 1.5em 2em;
+}
+
+#inputProductSony {
+    width: 17em;
+    color: black;
+}
+
+
+#outputProductSony {
+    width: 17em;
+    color: black;
+}
+
+.btn__inputProduct {
+
+    border: none;
+}
+
+.btn__outputProduct { 
+
+    border: none;
+}
+
+.form__outputProduct__title {
+    margin-right: 8px;
+}
+
+.form__title {
+    padding: 8px;
+    background-color: rgb(145, 220, 229);
+    border-radius: 5px;
+}
+
+.main__content__chart {
+    width: 100%;
+    height: 40em;
+    border: 1px solid black;
+    padding: 0;
+    overflow: hidden;
+    padding: 2em;
+    text-align: center;
+    background-color: rgb(229, 226, 226);
+    border-radius: 10px;
+}
+
+.main__content__chart__import {
+    width: 100%;
+    height: 50%;
+}
+
+.main__content__chart__export {
+    width: 100%;
+    height: 50%;
+}
